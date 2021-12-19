@@ -11,6 +11,20 @@ body {
   border: none;
 }
 
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+
+
+
+
+
+
+
 .wrapper {
   padding: 50px 0 49px 0;
 }
@@ -25,6 +39,7 @@ body {
   font-size: 16px;
   line-height: 130%;
 }
+
 .desc {}
 
 .abbr {
@@ -47,16 +62,20 @@ body {
 
 /*section------html*/
 .page {}
+
 .page__html {
   margin-bottom: 50px;
 }
+
 .page__general {
   margin-bottom: 47px;
 }
+
 .page__brausers {}
 
 
 .html {}
+
 .html__container {}
 
 .html__heading {
@@ -70,15 +89,19 @@ body {
   color: #C02521;
   margin-bottom: 24px;
 }
+
 .html__desc {
   text-align: center;
   margin-bottom: 15px;
 }
+
 .html__abbr {}
+
 .html__cursive {
   font-style: italic;
   color: #E8C60C;
 }
+
 .html__text {
   text-align: center;
 }
@@ -89,6 +112,7 @@ body {
 
 
 .general {}
+
 .general__container {}
 
 .general__subheading {
@@ -107,6 +131,7 @@ body {
 /*section-----brausers*/
 
 .brausers {}
+
 .brausers__container {}
 
 .brausers__subheading {
