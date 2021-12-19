@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.wrapper {
+  padding: 50px 0 49px 0;
+}
+
+.container {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+/*mixes*/
+.text {
+  font-size: 16px;
+  line-height: 130%;
+}
+.desc {}
+
+.abbr {
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-family: "Roboto", serif;
+  text-align: center;
+  font-size: 30px;
+  line-height: 117%;
+  letter-spacing: 0.115em;
+  text-transform: uppercase;
+  color: #C02521;
+  text-shadow: 0px 0px 10px #C02521;
+}
+
+
+
+
+/*section------html*/
+.page {}
+.page__html {
+  margin-bottom: 50px;
+}
+.page__general {
+  margin-bottom: 47px;
+}
+.page__brausers {}
+
+
+.html {}
+.html__container {}
+
+.html__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  line-height: 117%;
+  letter-spacing: 15%;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px #C02521, 0px 0px 18px #E8C60C;
+  text-align: center;
+  color: #C02521;
+  margin-bottom: 24px;
+}
+.html__desc {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.html__abbr {}
+.html__cursive {
+  font-style: italic;
+  color: #E8C60C;
+}
+.html__text {
+  text-align: center;
+}
+
+
+
+/*section------general*/
+
+
+.general {}
+.general__container {}
+
+.general__subheading {
+  margin-bottom: 23px;
+}
+
+.general__text {}
+
+.general__abbr {
+  text-transform: uppercase;
+  font-style: italic;
+  color: #074F99;
+}
+
+
+/*section-----brausers*/
+
+.brausers {}
+.brausers__container {}
+
+.brausers__subheading {
+  margin-bottom: 25px;
+}
+
+.brausers__text {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.brausers__abbr {}
+
+.brausers__image {
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.brausers-image img {
+  max-width: 100%;
+}
+
+.brausers__list {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.015em;
+}
+
+.brausers__item {}
+
+.brausers__item:not(:last-child) {
+  margin-bottom: 6px;
+}
